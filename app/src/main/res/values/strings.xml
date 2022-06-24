@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_title">TNN</string>
+    <string name="app_author">WZTENG</string>
+    <string name="app_name">Detector</string>
+    <string name="image_view">Image View</string>
+    <string name="detect">Detect</string>
+    <string name="save">Save</string>
+    <string name="record">Record</string>
+    <string name="run_model">Running the model...</string>
+    <string name="restart">Restart</string>
+    <string name="select">Select</string>
+    <string name="live">Live</string>
+    <string name="save_picture" >保存图片</string>
+    <string name="save_picture_failed" >保存失败</string>
+    <string name="save_picture_success" >图片成功保存至%s目录</string>
+</resources>

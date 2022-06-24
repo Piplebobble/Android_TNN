@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wzt.tnn">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tnn_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/tnn_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TNNDemo">
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.LiveActivity"
+            android:theme="@style/AppNoTitleTheme" />
+        <activity android:name=".activity.InitActivity"/>
+        <activity android:name=".activity.AbstractCameraXActivity"/>
+        <activity android:name=".activity.BaseModuleActivity"/>
+        <activity android:name=".activity.ObjectDetectionActivity"/>
+        <activity android:name=".activity.RecorderActivity"/>
+
+    </application>
+
+</manifest>
